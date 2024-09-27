@@ -1,0 +1,28 @@
+{
+    "$schema": "../../node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+    "spaces": 2,
+    "generator-cli": {
+      "version": "7.8.0",
+      "storageDir": "./src/api/",
+      "generators": {
+        "users": {
+          "generatorName": "typescript-fetch",
+          "output": "#{cwd}/src/api/sdr",
+          "inputSpec": "http://localhost:3001/api-json",
+          "enablePostProcessFile": true,
+          "additionalProperties": {
+            "supportsES6": true,
+            "disallowAdditionalPropertiesIfNotPresent": false,
+            "legacyDiscriminatorBehavior": false,
+            "platform": "node",
+            "stringEnums": true,
+            "withInterfaces": true
+          },
+          "reservedWordsMappings": {
+            "abstract": "abstract"
+          }
+        }
+      }
+    }
+  }
+  

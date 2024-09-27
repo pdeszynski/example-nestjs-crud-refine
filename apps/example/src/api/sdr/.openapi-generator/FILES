@@ -1,0 +1,9 @@
+apis/DefaultApi.ts
+apis/index.ts
+index.ts
+models/CreateManyTenantDto.ts
+models/GetManyBaseTenantControllerTenant200Response.ts
+models/GetManyTenantResponseDto.ts
+models/Tenant.ts
+models/index.ts
+runtime.ts

@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.5"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.9",
+    "openapi-gen-cli": "^0.0.0",
+    "openapi-generator": "^0.1.39"
+  }
+}
