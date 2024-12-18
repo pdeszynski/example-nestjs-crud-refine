@@ -25,7 +25,7 @@
     "@refinedev/react-hook-form": "^4.8.14",
     "@refinedev/react-table": "^5.6.6",
     "@tanstack/react-table": "^8.2.6",
-    "next": "^14.1.0",
+    "next": "^14.2.15",
     "next-auth": "^4.24.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
